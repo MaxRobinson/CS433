@@ -17,8 +17,28 @@
 
 \maketitle
 
-\section{Proposal}
 
+% Submit research question, planned target venue (you can change your mind later), and data collection plan (you don’t have to complete data collection at this point).
+
+\section{Research Question}
+A foundational problem in social network analysis is the ability to identify community structure just from the provided network. A problem that arises from attempting to find these communities is the amount of compute time required to find these communities. 
+
+Several algorithms currently exist for finding communities among social networks. The Klaus-Newman-Moore and Louvain algorithms are currently quite popular. These algorithms are used widely and have been shown to perform reasonably quickly when tackling large scale networks. 
+
+This proposal suggests investigating the performance of a newer algorithm called Truss Community Detection, or just Truss for short, developed by Jon Cohen. The research would compare the Truss algorithm to the performance of Klaus-Newman-Moor and Louvain, based on relative runtime to complete a task. 
+
+%Attached is info on the Truss.  The word doc is Jon Cohen’s paper.  The Tech report is a comparison of open source SNA packages to GPU accelerated options.  The “ONA…pdf” is a tutorial for use of igraph in R and includes a section on a Truss implementation.  Note that the Truss implementation in that document is not optimized.  The version that Alex Perrone has is about 7K times faster in its C++ implementation.
+
+% If you choose to proceed with this project idea, I’d essentially ask that you find the Klaus-Newman-Moore and Louvain implementations of network clustering in igraph and get the Truss method from Alex Perrone.  Obtain the same networks used in the Louvain paper, or similar equivalents that are available.  Note there are good ones on the Stanford SNAP site or Alex has the ones we used in the attached technical report.  Calculate the same performance measures on the three algorithms that were used in the Louvain paper.  If you have good findings, this is an easy paper.  If the Truss does not outperform other methods, then we can discuss with Jon Cohen and see if there is room for improvement, but my intuition says Jon’s algorithm is best.  Ideally, the paper will follow a very similar format to the Louvain paper.
+
+\section{Target Venue}
+The planned target venue for this paper would be the IEEE/ACM ASONAM conference. This conference looks at a wide range of different areas and a paper showing a possibly more performance community detection algorithm would be a hit there. 
+
+
+\section{Data Collection}
+The data used for the experiment will be gathered from the Stanford SNAP datasets. These datasets provide large networks that are available to everyone for experiment reproduction. These datasets also constitute a modern standard for large social networks, and as a result provide a good baseline for modern comparisons. 
+
+Result data will be collected in the form of the amount of time needed to identify communities of nodes in the network. These run-times measures will be taken several times and averaged out over the runs to provide an averaged run-time with standard deviations to attempt to account for variance in uncontrolled operating system (OS) properties on the machine running the experiments. The data collected will attempt to be similar, if not exatly the same, as the data that was collected as part of Louvain's paper, detailing the Louvain algorithm.
 
 
 \vskip 0.2in
