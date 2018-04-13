@@ -1,0 +1,46 @@
+\documentclass[jair,twoside,11pt,theapa]{article}
+\usepackage{jair, theapa, rawfonts, amssymb}
+
+%\jairheading{1}{2018}{}{}{}
+\ShortHeadings{Project Proposal}
+{Robinson}
+\firstpageno{1}
+
+\begin{document}
+\title{Alternative Project Proposal - CS 605.404 Social Media Analytics Class}
+
+
+\author{\name Max Robinson \email max.robinson@jhu.edu \\
+	\addr Johns Hopkins University,\\
+	Baltimore, MD 21218 USA
+}
+
+\maketitle
+
+
+% Submit research question, planned target venue (you can change your mind later), and data collection plan (you don’t have to complete data collection at this point).
+\section{Preamble}
+This is an alternate proposal for the Final project for the Social Media Analytics class CS 605.433. This alternate proposal is being submitted to be reviewed and vetted in the event that the original proposal is found to be to difficult to accomplish. 
+
+The worries about the original proposal have to do with the scope of the project. While much of the code appears to be in place, it is not immediately clear that all functionality is available as needed. The Louvain paper is also quite detailed and there is worry about the time required to accurately create a paper with corresponding depth. This proposal is also a fall back, should any road blocks occur to using APL internal research or resources pop up.
+
+These concerns may be unfounded, but this proposal is being submitted as a precaution against any of the aforementioned possible problems. 
+
+
+\section{Research Question}
+In an era of online sharing, more and more platforms are adding social media or social media like elements to their platforms that are not inherently social media platforms. A great example and target of this proposal is the money transfer platform Venmo. While Venmo is not a social media application, users connect with other users through monetary transactions. In addition though, users can add messages along with their transactions, and these transactions are sometimes open to the public. As a result, Venmo has become its own type of social media platform. 
+
+Since messages are often sent along with the transactions, it is possible to glean information about the transaction through the text in the message. The types of information that are usual portrayed in these messages are usually behavioral in nature. For example, paying a friend back for dinner or drinks, or paying a roommate for rent constitute two different types of behavior. One is a social outgoing behavior, the other is a more business transaction type of behavior. 
+
+This proposal suggests researching if behaviors in groups can be identified based on their Venmo transactions. If this result holds, it can then be investigated if individuals form different groups or networks based on their behavior, and if these different groups can be identified from these same financial transactions. 
+
+\section{Target Venue}
+The planned target venue for this paper would be the IEEE/ACM ASONAM conference. This conference looks at a wide range of different areas and deriving group behavior from financial transactions would be a hit there. 
+
+\section{Data Collection}
+Data collection will be done in an automated fashion by collecting data that is openly available through the Venmo public API. Data will be collected to attempt to sample a weeks worth of transactions from Venmo. The data has information regarding who payed whom, and when. From this data, cluster can can be done, followed by NLP or sentiment analysis to attempt to determine behavioral patterns amongst the clusters. 
+
+
+\vskip 0.2in
+\bibliographystyle{theapa}
+\end{document}
