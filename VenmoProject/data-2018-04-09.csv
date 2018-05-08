@@ -1,0 +1,11 @@
+word1,word2,word3,word4,word5,word6,word7,word8,word9,word10
+,food,uber,groceries,,march,⛳,masters,april,
+uber,masters,,⛳,groceries,food,,march,april,🎁
+,masters,uber,,groceries,food,april,march,⛳,🎁
+,food,masters,,april,groceries,⛳,uber,🎁,march
+,,april,uber,groceries,masters,food,⛳,march,
+,masters,groceries,,⛳,uber,food,april,march,
+masters,,,uber,groceries,april,⛳,food,march,
+,masters,uber,food,,april,groceries,march,,thanks
+,uber,masters,food,groceries,april,⛳,,life,thanks
+,masters,groceries,food,uber,april,,⛳,march,🏀

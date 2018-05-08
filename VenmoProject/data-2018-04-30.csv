@@ -1,0 +1,11 @@
+word1,word2,word3,word4,word5,word6,word7,word8,word9,word10
+may,rent,🏠💸,🏠,🏡,uber,thanks,april,bills,thank
+rent,may,🏠💸,🏠,april,groceries,bills,thanks,thank,
+may,🏠💸,rent,🏠,thanks,🏡,uber,groceries,april,bills
+rent,🏠💸,may,🏠,thanks,bills,uber,groceries,april,
+🏠💸,may,rent,🏠,🏡,groceries,,uber,thank,bills
+🏠💸,may,rent,🏠,thanks,🏡,april,uber,groceries,
+🏠💸,rent,may,🏠,🏡,uber,thanks,bills,,thank
+may,🏠💸,rent,thanks,groceries,🏠,🏡,bills,,april
+may,🏠💸,rent,,🏡,🏠,groceries,bills,april,thank
+may,rent,🏠💸,🏡,🏠,april,uber,bills,trip,🍕
