@@ -1,11 +1,6 @@
 word1,word2,word3,word4,word5,word6,word7,word8,word9,word10
-food,🍕,rent,🏠💸,stuff,🎥,thai,bill,dinner,🎁
-food,🍕,rent,🎥,🏠💸,stuff,uber,cream,thank,thai
-food,🍕,stuff,🏠💸,rent,🎥,thai,cream,dinner,groceries
-food,🍕,rent,stuff,thai,🏠💸,🎥,,groceries,dinner
-food,🍕,rent,stuff,thai,🏠💸,uber,groceries,🎥,🎁
-food,🍕,thai,stuff,rent,🏠💸,uber,🎥,,dinner
-food,🍕,rent,stuff,thai,🏠💸,dinner,🎥,:),thank
-food,🍕,rent,thai,🎥,:),bill,dinner,uber,stuff
-food,🍕,rent,dinner,stuff,🏠💸,🎥,thai,uber,
-food,🍕,🏠💸,thai,stuff,uber,🎥,rent,groceries,good
+food,🍕,rent,stuff,🏠💸,thai,uber,🎥,bill,groceries
+food,🍕,rent,thai,stuff,uber,🎥,dinner,good,
+food,🍕,rent,🏠💸,stuff,🎥,thai,dinner,:),cream
+food,🍕,🏠💸,stuff,🎥,thai,dinner,good,rent,cream
+food,🍕,🏠💸,thai,stuff,rent,cream,dinner,,thank

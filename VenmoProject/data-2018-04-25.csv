@@ -1,11 +1,6 @@
 word1,word2,word3,word4,word5,word6,word7,word8,word9,word10
-food,rent,,may,uber,🍴,🎁,bills,,house
-food,rent,may,uber,thanks,🍴,,house,,🏠💸
-rent,food,may,,thanks,uber,🏠💸,gift,,🎁
-food,rent,may,🍴,house,,🏠💸,,bills,uber
-may,food,rent,🍴,,thanks,uber,,gift,bills
-may,rent,food,🏠💸,🍴,,,thanks,house,bills
-rent,may,🍴,uber,food,,thanks,,house,wifi
-rent,food,may,🍴,thanks,🏠💸,,🍕,,house
-may,food,🍴,rent,,bills,house,uber,,🏡
-may,rent,food,uber,thanks,🍴,bills,,,tickets
+rent,may,food,uber,bills,,house,,thanks,🍴
+may,rent,food,🍴,,,thanks,house,🏠💸,🏡
+rent,food,🍴,may,,thanks,🍕,!!!!,🏠💸,uber
+food,may,rent,🍴,,,thanks,🏠💸,uber,bills
+may,food,rent,uber,,thanks,🍴,🏠💸,🎁,

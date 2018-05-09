@@ -1,11 +1,6 @@
 word1,word2,word3,word4,word5,word6,word7,word8,word9,word10
-uber,food,na,pizza,❤️,🍕,⛽,krusty,krab,
-uber,na,pizza,gas,food,krusty,🍕,❤️,,krab
-uber,pizza,na,food,🍕,,gas,krab,❤️,krusty
-uber,pizza,na,🍕,food,gas,⛽,krusty,krab,❤️
-uber,food,pizza,na,gas,🍕,krusty,❤️,krab,
-uber,na,pizza,food,🍕,⛽,gas,❤️,krab,krusty
-uber,pizza,na,gas,🍕,food,❤️,krab,krusty,⛽
-uber,na,food,pizza,❤️,gas,🍕,,⛽,krusty
-uber,pizza,na,food,gas,🍕,❤️,🍻,,krab
-uber,na,pizza,gas,,❤️,food,⛽,krab,🍕
+uber,pizza,na,food,gas,🍕,❤️,krab,,krusty
+uber,na,food,pizza,gas,🍕,⛽,krusty,,krab
+uber,pizza,na,❤️,food,gas,⛽,🍕,krab,krusty
+uber,na,food,pizza,🍕,krab,gas,krusty,⛽,❤️
+uber,na,pizza,❤️,food,🍕,gas,,krusty,⛽
