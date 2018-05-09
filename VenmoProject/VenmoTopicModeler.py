@@ -72,7 +72,7 @@ def model_topics(filename:str, outputFile:str):
 
     print("Start Topics")
 
-    lda = gensim.models.LdaModel(corpus, id2word=dictionary, alpha='auto', num_topics=10)
+    lda = gensim.models.LdaModel(corpus, id2word=dictionary, alpha='auto', num_topics=5)
     words_in_all_topics = []
     for topic in lda.show_topics():
         words_in_topic = topic[1]
